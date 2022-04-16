@@ -11,6 +11,7 @@ https://github.com/paigeshin/SwiftReduxStore
 # Version Support
 
 iOS 13++
+
 macOS 10_15_5
 
 # Sample Projects

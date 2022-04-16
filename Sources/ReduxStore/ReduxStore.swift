@@ -9,9 +9,9 @@ public protocol Action { }
 
 public class Store<StoreState: ReduxState>: ObservableObject {
 
-    var reducer: Reducer<StoreState>
+    public var reducer: Reducer<StoreState>
     @Published public var state: StoreState
-    var middlewares: [Middleware<StoreState>]
+    public var middlewares: [Middleware<StoreState>]
 
     public init(reducer: @escaping Reducer<StoreState>,
          state: StoreState,

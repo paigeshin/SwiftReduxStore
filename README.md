@@ -45,7 +45,7 @@ Because I'm building Counter App, I defined `CounterState` here.
 
 ### Actions 
 
-```
+```swift
 
 struct Increment: Action {}
 
@@ -58,7 +58,7 @@ In this example, you only have two actions. Increment count, Decrement Count.
 
 ### Reducers 
 
-```
+```swift
 
 func appReducer(_ state: AppState, _ action: Action) -> AppState {
     var state: AppState = state
@@ -87,7 +87,7 @@ Reducer is where actual modifications on states happen.
 
 ### Initialize Your Store
 
-```
+```swift
 import SwiftUI
 import ReduxStore
 

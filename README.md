@@ -4,6 +4,7 @@ Redux Architecture Library
 
 # Sample Projects
 
+[Sample Project](https://github.com/paigeshin/ReduxSampleProject)
 
 # What is Redux Architecture?
 
